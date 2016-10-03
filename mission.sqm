@@ -28,7 +28,7 @@ class Mission
 	randomSeed=13415463;
 	class Intel
 	{
-		briefingName="Game Master 2D";
+		briefingName="Savable Master 2D";
 		overviewText="Broken key";
 		startWeather=0;
 		startWind=0.099999994;
@@ -2399,7 +2399,7 @@ class Mission
 						};
 						class Item1
 						{
-							value="MasterCurator";
+							value="";
 							parentCls="ModuleCurator_F";
 							typeName="Name";
 						};
@@ -2422,6 +2422,7 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
+					text="masterzeus";
 				};
 			};
 		};

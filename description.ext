@@ -1,4 +1,4 @@
-﻿onLoadName = "GameMaster for 417.RCT 2D";
+﻿onLoadName = "Savable GameMaster for 417.RCT 2D";
 author = Arcanum;
 onLoadMission = "";
 overviewText = "Enjoy your on spot made mission scenario";

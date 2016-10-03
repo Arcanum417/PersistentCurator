@@ -14,13 +14,13 @@ if ( !(isNil "param_wipe_savegame_1") && !(isNil "param_wipe_savegame_2") ) then
 
 buildings_to_save= [];
 ai_groups = [];
-417_savegame = profileNamespace getVariable save_key;
+custom_savegame = profileNamespace getVariable save_key;
 
-if ( !isNil "417_savegame" ) then {
+if ( !isNil "custom_savegame" ) then {
 
-	buildings_to_save = 417_savegame select 0;
-	time_of_day = 417_savegame select 1;
-//	ai_groups = 417_savegame select 2;
+	buildings_to_save = custom_savegame select 0;
+	time_of_day = custom_savegame select 1;
+//	ai_groups = custom_savegame select 2;
 	setDate [ 2016, 10, 3, time_of_day, 0];
 
 	{
@@ -90,10 +90,9 @@ while { true } do {
 	buildings_to_save = [];
 
 	_all_buildings = [];
-	{
-		_nextbuildings = [ curatorEditableObjects MasterCurator];
+	_nextbuildings = [ curatorEditableObjects masterzeus];
 
-		_all_buildings = _all_buildings + _nextbuildings;
+	_all_buildings = _all_buildings + _nextbuildings;
 /*
 		{
 			_nextgroup = _x;
@@ -116,7 +115,6 @@ while { true } do {
 			};
 		} foreach allGroups;
 */
-	} foreach GRLIB_all_fobs;
 
 	{
 		private _savedpos = [];
@@ -147,10 +145,10 @@ while { true } do {
 
 	time_of_day = date select 3;
 
-	417_savegame = [buildings_to_save, time_of_day, 
-//	ai_groups, 
-	];
+	custom_savegame = [buildings_to_save, time_of_day
+//	,ai_groups
+];
 
-	profileNamespace setVariable [ save_key, 417_savegame ];
+	profileNamespace setVariable [ save_key, custom_savegame ];
 	saveProfileNamespace;
 };
