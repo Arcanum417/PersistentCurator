@@ -2399,7 +2399,7 @@ class Mission
 						};
 						class Item1
 						{
-							value="";
+							value="MasterCurator";
 							parentCls="ModuleCurator_F";
 							typeName="Name";
 						};

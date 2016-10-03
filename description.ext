@@ -59,8 +59,21 @@ class Params
 	};
 	default = 0;
 	function = "BIS_fnc_paramGuerFriendly";
-
-};
+	};
+	
+	class WipeSave1{
+		title = "Wipe Savegame ?";
+		values[] = {0,1};
+		texts[] =  {"NO","YES"};
+		default = 0;
+	};
+	
+	class WipeSave2{
+		title = "Rly Wipe Savegame ?";
+		values[] = {0,1};
+		texts[] =  {"NO","YES"};
+		default = 0;
+	};
 //	#include "\a3\functions_f\Params\paramGuerFriendly.hpp"
 //	#include "\a3\functions_f\Params\paramDebugConsole.hpp"
 };
