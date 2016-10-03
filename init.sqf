@@ -11,6 +11,5 @@ if (isServer) then {
 if (!isDedicated && !hasInterface && isMultiplayer) then {
 	[] spawn compileFinal preprocessFileLineNumbers "scripts\show_fps.sqf";
 };
-tf_no_auto_long_range_radio = true;
 execVM "scripts\cTabFixFirst.sqf";
 execVM "scripts\cTabFix.sqf";
