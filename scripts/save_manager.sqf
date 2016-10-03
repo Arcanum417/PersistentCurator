@@ -49,7 +49,7 @@ save_is_loaded = true; publicVariable "save_is_loaded";
 
 while { true } do 
 {
-	sleep 1;
+	sleep 60;
 
 	buildings_to_save = [];
 
