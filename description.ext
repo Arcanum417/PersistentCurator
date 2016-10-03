@@ -61,6 +61,13 @@ class Params
 	function = "BIS_fnc_paramGuerFriendly";
 	};
 	
+	class LoadSave{
+		title = "Load Save Game ?";
+		values[] = {0,1};
+		texts[] =  {"NO","YES"};
+		default = 0;
+	};
+	
 	class WipeSave1{
 		title = "Wipe Savegame ?";
 		values[] = {0,1};
