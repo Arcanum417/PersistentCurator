@@ -15,6 +15,7 @@ if ( !(isNil "param_wipe_savegame_1") && !(isNil "param_wipe_savegame_2") ) then
 buildings_to_save= [];
 ai_groups = [];
 custom_savegame = profileNamespace getVariable save_key;
+trigger_server_save = false;
 
 if ( !isNil "custom_savegame" ) then {
 
@@ -24,6 +25,7 @@ if ( !isNil "custom_savegame" ) then {
 	setDate [ 2016, 10, 3, time_of_day, 0];
 
 	{
+		diag_log format ["Loading , %1",_x];
 		_nextclass = _x select 0;
 
 			_nextpos = _x select 1;
@@ -90,7 +92,7 @@ while { true } do {
 	buildings_to_save = [];
 
 	_all_buildings = [];
-	_nextbuildings = [ curatorEditableObjects masterzeus];
+	_nextbuildings = curatorEditableObjects masterzeus;
 
 	_all_buildings = _all_buildings + _nextbuildings;
 /*
@@ -117,7 +119,6 @@ while { true } do {
 */
 
 	{
-		private _savedpos = [];
 /*
 		if ( (typeof _x) in _building_classnames ) then {
 			_savedpos = _x getVariable [ "GRLIB_saved_pos", [] ];
@@ -129,7 +130,8 @@ while { true } do {
 			_savedpos = getposATL _x;
 		};
 */
-		_savedpos = getposATL _x;
+		diag_log format ["Saving , %1",_x];
+		private _savedpos = getposATL _x;
 		private _nextclass = typeof _x;
 		private _nextdir = getdir _x;
 		private _hascrew = false;
