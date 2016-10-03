@@ -26,7 +26,7 @@ class Mission
 	randomSeed=13415463;
 	class Intel
 	{
-		briefingName="LolNope";
+		briefingName="Game Master 417.RCT Autosave";
 		overviewText="Broken key";
 		startWeather=0;
 		startWind=0.099999994;
