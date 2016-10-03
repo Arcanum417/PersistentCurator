@@ -1,4 +1,4 @@
-﻿onLoadName = "Savable GameMaster for 417.RCT 2D";
+﻿onLoadName = "GameMaster for 417.RCT Autosave";
 author = Arcanum;
 onLoadMission = "";
 overviewText = "Enjoy your on spot made mission scenario";
@@ -6,22 +6,22 @@ overviewTextLocked = "Locked! Contact admin for information.";
 enableDebugConsole = 1;
 
 respawn = 2;
-respawnDelay = 20;
-//respawnOnStart = 1;
-respawnButton = 0;
+respawnDelay = 5;
+respawnOnStart = 1;
+respawnButton = 1;
 respawnVehicleDelay = 30;
 respawnTemplates[] = {"MenuPosition","MenuInventory","Tickets"};
 respawnTemplatesVirtual[] = {};
 
 disabledAI = 1;
 joinUnassigned = 1;
-aiKills  = 1;
+aiKills  = 0;
 
 class Header
 {
 	gameType = ZGM;
 	minPlayers = 1;
-	maxPlayers = 120;
+	maxPlayers = 448;
 };
 
 class Params
