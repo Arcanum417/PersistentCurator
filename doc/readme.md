@@ -16,3 +16,6 @@ Itemy na zemi random
 Building
 
 Do defaultni jenom jako save objekt, cargo
+
+ukladat clientside, ma master typek save ? Jo nacti.
+Ulozit casove a na game end a nacitat na zacatku.
