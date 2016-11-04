@@ -1,7 +1,7 @@
-﻿onLoadName = "Eden GameMaster for 417.RCT Autosave";
-author = Arcanum;
+﻿onLoadName = "VP Sparťan";
+author = Hart, Arcanum(GM3den);
 onLoadMission = "";
-overviewText = "Enjoy your on spot made mission scenario";
+overviewText = "Výcviková základna 417.RCT";
 overviewTextLocked = "Locked! Contact admin for information.";
 enableDebugConsole = 1;
 
@@ -21,7 +21,7 @@ class Header
 {
 	gameType = ZGM;
 	minPlayers = 1;
-	maxPlayers = 448;
+	maxPlayers = 146;
 };
 
 class Params
