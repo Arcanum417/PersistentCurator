@@ -1,4 +1,4 @@
-﻿onLoadName = "GameMaster for 417.RCT Autosave";
+﻿onLoadName = "Eden GameMaster for 417.RCT Autosave";
 author = Arcanum;
 onLoadMission = "";
 overviewText = "Enjoy your on spot made mission scenario";
