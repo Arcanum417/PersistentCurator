@@ -6707,6 +6707,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6725,6 +6726,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6743,6 +6745,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6761,6 +6764,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6779,6 +6783,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6797,6 +6802,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6815,6 +6821,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6833,6 +6840,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6851,6 +6859,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
@@ -6869,6 +6878,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					init="[this, true] call TFAR_fnc_forceSpectator;";
 				};
 			};
 		};
