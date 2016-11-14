@@ -182,5 +182,15 @@ if (!(isNil "kraken_phq_2")) then {if (kraken_phq_2 == leader kraken_phq_2) then
 if (!(isNil "kraken_phq_3")) then {if (kraken_phq_3 == leader kraken_phq_3) then {kraken_phq_3 setGroupIdGlobal ["Kraken-PHQ"];};};
 if (!(isNil "kraken_phq_4")) then {if (kraken_phq_4 == leader kraken_phq_4) then {kraken_phq_4 setGroupIdGlobal ["Kraken-PHQ"];};};
 
+if (!(isNil "bluezeus_1")) then {if (bluezeus_1 == leader bluezeus_1) then {bluezeus_1 setGroupIdGlobal ["Zeus RangeMaster"];};};
+if (!(isNil "bluezeus_2")) then {if (bluezeus_2 == leader bluezeus_2) then {bluezeus_2 setGroupIdGlobal ["Zeus RangeMaster"];};};
+if (!(isNil "bluezeus_3")) then {if (bluezeus_3 == leader bluezeus_3) then {bluezeus_3 setGroupIdGlobal ["Zeus RangeMaster"];};};
+if (!(isNil "bluezeus_4")) then {if (bluezeus_4 == leader bluezeus_4) then {bluezeus_4 setGroupIdGlobal ["Zeus RangeMaster"];};};
+
+if (!(isNil "instruktor_har")) then {if (instruktor_har == leader instruktor_har) then {instruktor_har setGroupIdGlobal ["Instruktor Hart"];};};
+if (!(isNil "instruktor_arc")) then {if (instruktor_arc == leader instruktor_arc) then {instruktor_arc setGroupIdGlobal ["Instruktor Arcanum"];};};
+if (!(isNil "instruktor_hop")) then {if (instruktor_hop == leader instruktor_hop) then {instruktor_hop setGroupIdGlobal ["Instruktor H.o.p."];};};
+if (!(isNil "instruktor_pec")) then {if (instruktor_pec == leader instruktor_pec) then {instruktor_pec setGroupIdGlobal ["Instruktor Pecan"];};};
+
 sleep 200;
 };

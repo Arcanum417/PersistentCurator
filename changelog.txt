@@ -1,4 +1,59 @@
-V.0
+V.1.4 (14.11.2016 9.03)
+- ujebat .git lebo polovica tej misie to je ffs
+- ujebat sqm.old lebo sak more to je 2d vec thingy
+- pridat vec k spektatorom aby mozno asi mohli pouzivat nejak tfar tak spectatorovite
+
+V.1.3 (9.11.2016 13.13)
+- oprava sluneèníku
+- vypnuty majáky na instruktorských vozidlech
+- pøidán marker na depo instruktorských vozidel
+- pøidán trenažér Buòka na ST. Cihla
+- pøesunut Arsenal u QRE
+- zmìnìna vlajka 417rct na hezkou variantu
+- pøidána pøepravní vozidla (ST. Hrot, ST. Cihla)
+- pøidána vlajka (ST. Cihla)
+- pøidány Zeus RangeMaster sloty
+- uzamèení Instruktor Zeus slotù
+- pøidání markerù budov ST. Cihla
+
+V.1.2 (8.11.2016 12.42)
+- opraveny židle na ST. Hrot
+- opraven trenažér Køeèek
+- opravena Arsenal krabice na støelnice Hod Granátem
+- zmìnìna textura vlajky na ST. Hrot
+- zmìna umístìní Trenažéru Buòka
+- dokonèení ST. Cihla
+- pøidání 30m Støelnice (ST. Hrot)
+- pøestavba oblasti Stratis Air Base - Kasárny
+- pøidáno Stanovištì Kamino
+- pøidán respawn ST. Kamino
+- pøidána Instruktor vozidla (Stratis Air Base - Kasárny)
+- pøidáno Arsenal vozidlo (Stratis Air Base - Kasárny)
+- pøidána pøepravní vozidla (Stratis Air Base - Kasárny, ST. Kamino)
+
+V.1.1 (7.11.2016 21.53)
+- pøidána støelnice QRE
+- pøidána støelnice Duel
+- oprava respawnù
+- oprava funkènosti objektù s Arsenalem
+- úprava areálu Statis Air Base - Kasárny
+- pøidání spawn gearù (BEK, Officer, Member, Rekrut)
+
+V.1.0 (7.11.2016 12.00)
+- pøidán respawn ST. Hrot
+- pøidán respawn Stratis Air Base - Kasárny
+- pøidán marker Stanovištì Hrot
+- pøidáno Stanovištì Cihla
+- pøidáno Stanovištì Ohrada
+- oprava položení nìkterých objektù
+- pøidán billboard 417RCT Stratis Air Base
+- pøidána vlajka 417.RCT (Stratis Air Base - Kasárny)
+- pøidána vlajka CZ (Stratis Air Base - Kasárny)
+- pøidána vlajka SK (Stratis Air Base - Kasárny)
+- aktualizace markerù
+
+
+V.0.0 (2.11.2016 00.00)
 - pøidána støelnice 600m
 - pøidán trenažér Hod granátem
 - pøidán Trenažér Buòka

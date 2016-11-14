@@ -179,3 +179,13 @@ if (!(isNil "kraken_phq_1")) then { group kraken_phq_1 setGroupIdGlobal ["Kraken
 if (!(isNil "kraken_phq_2")) then { group kraken_phq_2 setGroupIdGlobal ["Kraken-PHQ"];};
 if (!(isNil "kraken_phq_3")) then { group kraken_phq_3 setGroupIdGlobal ["Kraken-PHQ"];};
 if (!(isNil "kraken_phq_4")) then { group kraken_phq_4 setGroupIdGlobal ["Kraken-PHQ"];};
+
+if (!(isNil "bluezeus_1")) then { group bluezeus_1 setGroupIdGlobal ["Zeus RangeMaster"];};
+if (!(isNil "bluezeus_2")) then { group bluezeus_2 setGroupIdGlobal ["Zeus RangeMaster"];};
+if (!(isNil "bluezeus_3")) then { group bluezeus_3 setGroupIdGlobal ["Zeus RangeMaster"];};
+if (!(isNil "bluezeus_4")) then { group bluezeus_4 setGroupIdGlobal ["Zeus RangeMaster"];};
+
+if (!(isNil "instruktor_har")) then { group instruktor_har setGroupIdGlobal ["Instruktor Hart"];};
+if (!(isNil "instruktor_arc")) then { group instruktor_arc setGroupIdGlobal ["Instruktor Arcanum"];};
+if (!(isNil "instruktor_hop")) then { group instruktor_hop setGroupIdGlobal ["Instruktor H.o.p."];};
+if (!(isNil "instruktor_pec")) then { group instruktor_pec setGroupIdGlobal ["Instruktor Pecan"];};

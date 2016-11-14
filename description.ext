@@ -1,6 +1,6 @@
-﻿onLoadName = "VP Sparťan";
+﻿onLoadName = "VP SPARŤAN V.1.3";
 author = Hart, Arcanum(GM3den);
-onLoadMission = "";
+onLoadMission = "VP SPARŤAN V.1.3";
 overviewText = "Výcviková základna 417.RCT";
 overviewTextLocked = "Locked! Contact admin for information.";
 enableDebugConsole = 1;
@@ -22,6 +22,192 @@ class Header
 	gameType = ZGM;
 	minPlayers = 1;
 	maxPlayers = 146;
+};
+
+class CfgRespawnInventory
+{
+	class WEST1
+	{
+		displayName = "BEK"; // Name visible in the menu
+		//icon = ""; // Icon displayed next to the name
+
+		weapons[] = {
+			"Binocular"
+		};
+		magazines[] = {};
+		items[] = {
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_epinephrine",
+		"ACE_epinephrine",
+		"ACE_bloodIV",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_Flashlight_XL50",
+		"ACE_Chemlight_HiWhite",
+		"ACE_Chemlight_Orange",
+		"ACE_HandFlare_White",
+		"ACE_HandFlare_White",
+		"HandGrenade",
+		"MiniGrenade",
+		"SmokeShell",
+		"SmokeShell",
+		"ACE_M84"
+		};
+		linkedItems[] = {
+		"H_ACR_A3_HelmetIA_vz95",
+		"V_ACR_A3_PlateCarrier1_vz95",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"ItemAndroid"
+		};
+		uniformClass = "U_ACR_A3_CombatUniform_Des";
+		//backpack = "";
+	};
+		class WEST2
+	{
+		displayName = "Rekrut"; // Name visible in the menu
+		//icon = ""; // Icon displayed next to the name
+
+		weapons[] = {
+			"Binocular"
+		};
+		magazines[] = {};
+		items[] = {
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_epinephrine",
+		"ACE_epinephrine",
+		"ACE_bloodIV",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_Flashlight_XL50",
+		"ACE_Chemlight_HiWhite",
+		"ACE_Chemlight_Orange",
+		"ACE_HandFlare_White",
+		"ACE_HandFlare_White"
+		};
+		linkedItems[] = {
+		"SP_Beret_Black",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"ItemAndroid"
+		};
+		uniformClass = "U_ACR_A3_CombatUniform_Des";
+		//backpack = "";
+	};
+	class WEST3
+	{
+		displayName = "Member"; // Name visible in the menu
+		//icon = ""; // Icon displayed next to the name
+
+		weapons[] = {
+			"Binocular"
+		};
+		magazines[] = {};
+		items[] = {
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_epinephrine",
+		"ACE_epinephrine",
+		"ACE_bloodIV",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_Flashlight_XL50",
+		"ACE_Chemlight_HiWhite",
+		"ACE_Chemlight_Orange",
+		"ACE_HandFlare_White",
+		"ACE_HandFlare_White"
+		};
+		linkedItems[] = {
+		"SP_Beret_Green",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"ItemAndroid"
+		};
+		uniformClass = "U_ACR_A3_CombatUniform_Des";
+		//backpack = "";
+	};
+		class WEST4
+	{
+		displayName = "Officer"; // Name visible in the menu
+		//icon = ""; // Icon displayed next to the name
+
+		weapons[] = {
+			"Binocular"
+		};
+		magazines[] = {};
+		items[] = {
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_epinephrine",
+		"ACE_epinephrine",
+		"ACE_bloodIV",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_Flashlight_XL50",
+		"ACE_Chemlight_HiWhite",
+		"ACE_Chemlight_Orange",
+		"ACE_HandFlare_White",
+		"ACE_HandFlare_White"
+		};
+		linkedItems[] = {
+		"SP_Beret_Red",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"ItemAndroid"
+		};
+		uniformClass = "U_ACR_A3_CombatUniform_MOUT_Des";
+		//backpack = "";
+	};
 };
 
 class Params
